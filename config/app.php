@@ -33,6 +33,8 @@ return [
     'cipher'          => 'AES-256-CBC',
     'providers'       => [
 
+
+        
         /*
          * Laravel Framework Service Providers...
          */
