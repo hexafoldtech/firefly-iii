@@ -14,8 +14,6 @@
 # EXPOSE 80
 # CMD ["apache2-foreground"]
 
-
-
 FROM php:8.2-apache
 
 # Set environment variables
