@@ -29,7 +29,7 @@ return [
     'timezone'        => envNonEmpty('TZ', 'UTC'),
     'locale'          => envNonEmpty('DEFAULT_LANGUAGE', 'en_US'),
     'fallback_locale' => 'en_US',
-    'key'             => env('APP_KEY'),
+    'key'             => envNonEmpty('APP_KEY', 'base64:49l2tMCb6pHd7HLip1qzo7tNx1z70STQghnyVKvv7fM='),   #env('APP_KEY'),
     'cipher'          => 'AES-256-CBC',
     'providers'       => [
 
